@@ -1,4 +1,5 @@
-import { FormEvent, useState } from 'react'
+import { useState } from 'react'
+import type { FormEvent } from 'react'
 
 export default function ResetPasswordChange() {
   const [password, setPassword] = useState('')
